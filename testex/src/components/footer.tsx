@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/footer.css';
-import { AiFillTwitterSquare } from 'react-icons/ai';
+import { SiTwitter } from 'react-icons/si';
 import { AiFillGithub } from 'react-icons/ai';
 import { FiMail } from 'react-icons/fi';
 
@@ -11,7 +11,7 @@ function footer() {
 				<p className='string'>FEDERAGE SAS • SIREN n°828743369 • Paris • 2023</p>
 			</div>
 			<div className='logo'>
-				<AiFillTwitterSquare />
+				<SiTwitter />
 				<AiFillGithub />
 				<FiMail />
 			</div>
