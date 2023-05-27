@@ -1,0 +1,42 @@
+.container-searchbar {
+	display: flex;
+	align-items: center;
+	width: 344px;
+	height: 42px;
+	border: 1px solid #ccc;
+	border-radius: 7px;
+	margin-left: 1rem;
+	margin-top: 10px;
+}
+
+.container-searchbar-icon {
+	display: flex;
+	align-items: center;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.text-holder {
+	width: 82px;
+	height: 24px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #9CA3AF;
+	justify-content: space-between;
+}
+
+.filter-icon {
+	box-sizing: border-box;
+	border: 10px solid #F9FAFB;
+	background-color: #F9FAFB;
+	margin-left: auto;
+	padding-right: 10px;
+}
+
+.filter-icon svg {
+	margin-right: 10px;
+}

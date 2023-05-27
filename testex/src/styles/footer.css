@@ -1,23 +1,26 @@
-.container {
+.container-footer {
 	background-color: black;
 	width: 100%;
 	min-height: 150px;
 	position: fixed;
 	bottom: 0;
+	overflow: auto;
+	/* z-index: 999; */
+	/* padding-bottom: 150px; */
 }
 
-.wrapper {
+.wrapper-footer {
 	text-align: center;
 	color: white;
-	margin: 3rem auto 0 auto;
+	margin: 1rem;
 }
 
-.string {
+.string-footer {
 	margin: 0;
 	display: inline-block;
 }
 
-.logo {
+.logo-footer {
 	display: flex;
 	justify-content: center;
 	color: white;

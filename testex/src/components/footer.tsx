@@ -4,13 +4,14 @@ import { SiTwitter } from 'react-icons/si';
 import { AiFillGithub } from 'react-icons/ai';
 import { FiMail } from 'react-icons/fi';
 
-function footer() {
+const Footer = () => {
 	return (
-		<div className="container">
-			<div className='wrapper'>
-				<p className='string'>FEDERAGE SAS • SIREN n°828743369 • Paris • 2023</p>
+		<div className="container-footer">
+			<div className='wrapper-footer'>
+				<p className='string-footer'>FEDERAGE SAS • SIREN n°828743369</p>
+				<p>• Paris • 2023</p>
 			</div>
-			<div className='logo'>
+			<div className='logo-footer'>
 				<SiTwitter />
 				<AiFillGithub />
 				<FiMail />
@@ -19,4 +20,4 @@ function footer() {
 	);
 }
 
-export default footer;
+export default Footer;

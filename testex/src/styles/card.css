@@ -1,0 +1,38 @@
+.container-body {
+	display: flex;
+	flex-direction: column;
+
+	position: relative;
+	/* overflow-y: scroll; */
+
+	mix-blend-mode: normal;
+}
+
+.container-body-left {
+	display: flex;
+	position: left;
+	margin: 1rem;
+	width: 113px;
+	height: 20px;
+	justify-content: space-around;
+
+	font-family: 'Inter';
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 20px;
+}
+
+.container-body-text {
+	width: 330px;
+	height: 60px;
+
+	margin-left: 1rem;
+	margin-right: 1rem;
+
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+
+	color: #52606D;
+	}
