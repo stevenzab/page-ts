@@ -1,0 +1,15 @@
+.container-text {
+	width: 199px;
+	height: 24px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+
+	padding-bottom: 200px;
+	padding-top: 50px;
+	margin: 1rem;
+	color: #012BDD;
+}

@@ -6,6 +6,7 @@ import Header from './components/header';
 import Card from './components/card';
 import SearchBar from './components/searchbar';
 import Box from './components/box_info';
+import Text from './components/text';
 import reportWebVitals from './reportWebVitals';
 import { HiBriefcase } from 'react-icons/hi';
 import { TfiWorld } from 'react-icons/tfi';
@@ -50,9 +51,10 @@ root.render(
         titreicon1='Projets ouverts'
         icon2=<TfiWorld />
         titreicon2='Entreprise' />
+      <Text />
       <Footer />
     </div>
-  </React.StrictMode>
+  </React.StrictMode >
 );
 
 reportWebVitals();

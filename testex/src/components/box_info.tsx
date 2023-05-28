@@ -21,9 +21,11 @@ const Box = (props: BoxProps) => {
 				<div className='container-box-logo-img'>
 					{props.logo}
 				</div>
-				{props.title}
+				<div>
+					<div className='container-box-title'>{props.title}</div>
+					<div className='container-box-subtitle'>{props.subtitle}</div>
+				</div>
 			</div>
-			<div className='container-box-subtitle'>{props.subtitle}</div>
 			<div className='container-box-text'>{props.text}</div>
 			<div className='container-box-icon'>
 				{props.icon} {props.titreicon1}
@@ -32,6 +34,6 @@ const Box = (props: BoxProps) => {
 			</div>
 		</div>
 	);
-}
+};
 
 export default Box

@@ -1,6 +1,7 @@
 .page-container {
   background: #F9FAFB;
-  overflow-y: scroll;
 
+  width: 100vw;
+  height: 500%;
   position: relative;
 }
